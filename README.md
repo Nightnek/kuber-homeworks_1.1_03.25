@@ -65,6 +65,9 @@
 2. Установить dashboard.
 3. Сгенерировать сертификат для подключения к внешнему ip-адресу.
 
+<img width="385" height="82" alt="image" src="https://github.com/user-attachments/assets/ca560005-c6f1-4473-b0d6-d251fca3bdc3" />
+
+
 ------
 
 ### Задание 2. Установка и настройка локального kubectl
