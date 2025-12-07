@@ -74,6 +74,11 @@
 1. Установить на локальную машину kubectl.
 2. Настроить локально подключение к кластеру.
 3. Подключиться к дашборду с помощью port-forward.
+
+As the K8s environment has a unique IP addressing scheme, you'll need to set up a proxy to pass requests to access the Dashboard, which you can do by entering microk8s.kubectl proxy --accept-hosts=.* --address=0.0.0.0 &. Note that the & at the end of this command string will run the command in the background.
+
+You can then enter the following in a Web browser to access the Dashboard:
+http://{Ubuntu_IP_address}:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/
 <img width="2538" height="1349" alt="image" src="https://github.com/user-attachments/assets/9fd79705-f0ed-4230-abe1-4990031b4b69" />
 
 ------
