@@ -74,6 +74,7 @@
 1. Установить на локальную машину kubectl.
 2. Настроить локально подключение к кластеру.
 3. Подключиться к дашборду с помощью port-forward.
+<img width="2538" height="1349" alt="image" src="https://github.com/user-attachments/assets/9fd79705-f0ed-4230-abe1-4990031b4b69" />
 
 ------
 
